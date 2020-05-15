@@ -38,4 +38,16 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 
 
+### git pull
+
 git pull origin master
+
+
+
+如果出现了如下错误
+
+fatal: refusing to merge unrelated histories
+
+尝试使用
+
+git pull origin master --allow-unrelated-histories
